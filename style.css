@@ -1,0 +1,23 @@
+body {
+    margin:0;
+}
+
+
+header {
+    background-color:rgb(46, 59, 116);
+    padding-block:2rem;
+    padding-inline: 1rem; 
+}
+
+section { background-color: rgb(209, 210, 217);
+
+}
+
+.primary-navigation {
+display: flex;
+
+    gap: 1rem;
+list-style: none;
+color: 111px;
+}
+
