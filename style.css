@@ -1,3 +1,6 @@
+
+
+
 body {
     margin:0;
 
@@ -26,3 +29,39 @@ list-style: none;
 color: 111px;
 }
 
+
+
+img {
+    display: block;
+    max-width: 100%;
+    object-fit: cover;
+    font-style: initial;
+    color: indigo;
+
+}
+
+.image-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 1rem;
+
+}
+
+ /* linkstyling */
+
+ a {
+    color:cornflowerblue;
+    transition: 150ms ease-in-out;
+ }
+ a:hover {
+    color:cornflowerblue
+ }
+ a:visited {
+    color:gold
+ }
+
+ a:active {
+    color:bisque
+ }
